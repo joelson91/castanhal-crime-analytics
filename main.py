@@ -5,7 +5,7 @@ from utils.loader import load_data
 def home_page():
     st.title("Análise de segurança em Castanhal")
     st.markdown(
-        "A seguinte análise utiliza dados de registros de boletim de ocorrência disponibilizados publicamente pela [Secretaria de Segurança Pública e Defesa Social](https://codec.segup.pa.gov.br) de 2010 a 2025."
+        "A seguinte análise utiliza dados de registros de boletim de ocorrência disponibilizados publicamente pela [Secretaria de Segurança Pública e Defesa Social (SEGUP)](https://codec.segup.pa.gov.br) do Pará, abrangendo o período de 2010 a 2025."
     )
 
     # Carrega dados
